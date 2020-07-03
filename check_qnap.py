@@ -138,7 +138,7 @@ def main(args):
     except:
         print ("UNKNOWN - SNMP on host {0} not available".format(host))
         sys.exit(UNKNOWN)
-    hostname = values.get(oid_hostname[1:])
+    
     temp = str(values.get(oid_temp[1:])).split(' ', 1)[0]
     diskIndex = values.get(oid_diskIndex[1:])
     raidIndex = values.get(oid_raidIndex[1:])
