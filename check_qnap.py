@@ -212,8 +212,8 @@ if __name__ == "__main__":
     # argsparse
     parser = argparse.ArgumentParser()
     parser.add_argument('-H', '--host', help='QNAP-NAS Host Address', required=True)
-    parser.add_argument('-c', '--critical', help='Critical Value for Temp')
-    parser.add_argument('-w', '--warning', help='Warning Value for Temp')
+    parser.add_argument('-c', '--critical', help='Critical Value for Temp', default='65')
+    parser.add_argument('-w', '--warning', help='Warning Value for Temp', default='60')
     parser.add_argument('-x', '--exclude', help='Checks to exclude', action='append')
     parser.add_argument('-C', '--community', help='SNMP Community', required=True)
     args = parser.parse_args()
