@@ -2,10 +2,6 @@
 
 Nagios Check for QNAP-NAS used to monitor temperature, disk health and RAID status.
 
-## Example output (with performance data):
-
-OK: Bandwidth Download: 11.67 %, Upload: 0.75 % | Download_band=1.4Mbps;10;11;0;12 | Upload_band=0.09Mbps;10;11;0;12
-
 ## For Python requirements run:
 
 sudo pip3 install -r requirements
