@@ -11,7 +11,7 @@ sudo pip3 install -r requirements
 ```bash
 cd /usr/lib/nagios/plugins
 wget https://raw.githubusercontent.com/Branrir/check_qnap/master/check_qnap.py
-chmod +x check_bandwidth.py
+chmod +x check_qnap.py
 ```
 ## 
 
