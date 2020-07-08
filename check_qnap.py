@@ -4,8 +4,6 @@
 
 from pysnmp import hlapi
 import argparse
-import sys
-import datetime
 
 """
 Quick SNMP - https://github.com/alessandromaggio/quicksnmp/blob/master/quicksnmp.py
@@ -114,6 +112,11 @@ nagiosprefixes = {
 }
 
 def main(args):
+
+    import sys
+    import datetime
+
+
     critical_temp = args.critical
     warning_temp = args.warning
     host = args.host
